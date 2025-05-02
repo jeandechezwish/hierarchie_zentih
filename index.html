@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiérarchie site-zentih</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1></h1>
+
+  <div class="org-container">
+    <!-- Ligne 1 -->
+    <div class="row">
+      <button class="box" id="o5" data-url="o5.html">O5</button>
+      <button class="box" id="ce" data-url="ce.html">CE</button>
+    </div>
+
+    <!-- Connecteurs entre O5/CE et A1/O1 -->
+    <svg class="connector">
+      <line x1="25%" y1="0" x2="25%" y2="100" />
+      <line x1="75%" y1="0" x2="75%" y2="100" />
+    </svg>
+
+    <!-- Ligne 2 -->
+    <div class="row">
+      <button class="box" id="a1" data-url="a1.html">A1</button>
+      <button class="box" id="o1" data-url="o1.html">O1</button>
+    </div>
+
+    <svg class="connector">
+      <line x1="25%" y1="0" x2="25%" y2="100" />
+      <line x1="75%" y1="0" x2="75%" y2="100" />
+    </svg>
+
+    <!-- Ligne 3 -->
+    <div class="row">
+      <button class="box" id="e11" data-url="e11.html">E11</button>
+      <button class="box" id="dsi" data-url="dsi.html">DSI</button>
+    </div>
+
+    <svg class="connector">
+      <line x1="50%" y1="0" x2="50%" y2="100" />
+    </svg>
+
+    <!-- Ligne 4 -->
+    <div class="row">
+      <button class="box" id="dir" data-url="dir.html">DIR</button>
+    </div>
+
+    <svg class="connector">
+      <line x1="50%" y1="0" x2="50%" y2="100" />
+    </svg>
+
+    <!-- Ligne 5 -->
+    <div class="row">
+      <button class="box" id="da" data-url="da.html">DA</button>
+      <button class="box" id="i8" data-url="i8.html">I8</button>
+      <button class="box" id="b7" data-url="b7.html">B7</button>
+    </div>
+
+    <svg class="connector">
+      <line x1="50%" y1="0" x2="50%" y2="100" />
+    </svg>
+
+    <!-- Ligne 6 -->
+    <div class="row">
+      <button class="box" id="ds" data-url="ds.html">DS</button>
+      <button class="box" id="dsci" data-url="dsci.html">DSCI</button>
+      <button class="box" id="dm" data-url="dm.html">DM</button>
+    </div>
+
+    <svg class="connector">
+      <line x1="50%" y1="0" x2="50%" y2="100" />
+    </svg>
+
+    <!-- Ligne 7 -->
+    <div class="row">
+      <button class="box" id="cd" data-url="cd.html">CD</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
